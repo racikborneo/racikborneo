@@ -1,75 +1,77 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#2e7d32" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Racik Borneo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2e7d32" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Racik Borneo</title>
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Racik Borneo</h1>
-        <p>
-            Ramuan Herbal Otentik dari Kalimantan
-        </p>
-    </header>
+  <!-- Header -->
+  <header>
+    <h1>Racik Borneo</h1>
+    <p>Ramuan Herbal Otentik dari Kalimantan</p>
+  </header>
 
-    <!-- Main Content -->
-    <main>
-        <section class="produk-section">
-            <h2>Produk Herbal</h2>
+  <!-- Main Content -->
+  <main>
+    <section class="produk-section">
+      <h2>Produk Herbal</h2>
 
-            <!-- Fitur Pencarian -->
-            <div class="cari">
-                <input type="text" id="cariInput" placeholder="Cari produk..." />
-            </div>
+      <!-- Fitur Pencarian -->
+      <div class="cari">
+        <input type="text" id="cariInput" placeholder="Cari produk..." />
+      </div>
 
-            <!-- Daftar Produk -->
-            <div class="produk-grid" id="produkList">
-                <div class="card">
-                    <img src="gambar/gg.jpg" alt="Gendang Gendis" />
-                    <h3>Gendang Gendis</h3>
-                    <p>
-                        Mengobati ruam, luka herpes, gigitan ular, diabetes, dan asam urat.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="gambar/sk.jpg" alt="Sirih Karuk" />
-                    <h3>Sirih Karuk</h3>
-                    <p>
-                        Meredakan sakit perut dan gangguan pencernaan.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="gambar/sm.jpg" alt="Tumbuhan Sarang Semut" />
-                    <h3>Tumbuhan Sarang Semut</h3>
-                    <p>
-                        Meningkatkan imun dan mempercepat penyembuhan luka.
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
+      <!-- Daftar Produk -->
+      <div class="produk-grid" id="produkList">
+        <div class="card">
+          <img src="gambar/gg.jpg" alt="Gendang Gendis" />
+          <h3>Gendang Gendis</h3>
+          <p>Mengobati ruam, luka herpes, gigitan ular, diabetes, dan asam urat.</p>
+        </div>
+        <div class="card">
+          <img src="gambar/sk.jpg" alt="Sirih Karuk" />
+          <h3>Sirih Karuk</h3>
+          <p>Meredakan sakit perut dan gangguan pencernaan.</p>
+        </div>
+        <div class="card">
+          <img src="gambar/sm.jpg" alt="Tumbuhan Sarang Semut" />
+          <h3>Tumbuhan Sarang Semut</h3>
+          <p>Meningkatkan imun dan mempercepat penyembuhan luka.</p>
+        </div>
+      </div>
+    </section>
 
-    <!-- Modal untuk tampilan gambar besar -->
-    <div id="gambarModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="gambarBesar" />
-    </div>
+    <!-- Hubungi Kami -->
+    <section class="kontak-section">
+      <h2>Hubungi Kami</h2>
+      <p>Pesan produk atau konsultasi herbal langsung lewat WhatsApp:</p>
+      <a href="https://wa.me/6285328736706" class="wa-button" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 448 512" style="vertical-align: middle; margin-right: 8px;">
+          <path d="M380.9 97.1C339-44.3 194.5-26.4 129.3 24.2 59.4 80.3 40.8 190.1 74 275.4l-38.4 111.2 113.8-37.4c80.4 30.3 167.5 1.9 213.2-61.4 49.7-68.2 37.4-170.3 18.3-190.7zM243.5 352c-46.4 0-89.2-18.3-121.1-50.2-33.1-33.1-51.3-77.1-51.3-124.4s18.2-91.3 51.3-124.4c33.1-33.1 77.1-51.3 124.4-51.3s91.3 18.2 124.4 51.3c33.1 33.1 51.3 77.1 51.3 124.4s-18.2 91.3-51.3 124.4c-31.9 31.9-74.7 50.2-121.1 50.2z"/>
+        </svg>
+        Chat via WhatsApp
+      </a>
+    </section>
+  </main>
 
-    <!-- Footer -->
-    <footer>
-        <p>
-            &copy; <span id="year"></span> Racik Borneo. All rights reserved.
-        </p>
-    </footer>
+  <!-- Modal untuk tampilan gambar besar -->
+  <div id="gambarModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="gambarBesar" />
+  </div>
 
-    <script src="script.js"></script>
-    <script type="text/javascript" charset="utf-8">
-        document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Racik Borneo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
