@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2e7d32" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Racik Borneo</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Racik Borneo</h1>
+        <p>
+            Ramuan Herbal Otentik dari Kalimantan
+        </p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="produk-section">
+            <h2>Produk Herbal</h2>
+
+            <!-- Fitur Pencarian -->
+            <div class="cari">
+                <input type="text" id="cariInput" placeholder="Cari produk..." />
+            </div>
+
+            <!-- Daftar Produk -->
+            <div class="produk-grid" id="produkList">
+                <div class="card">
+                    <img src="gambar/gg.jpg" alt="Gendang Gendis" />
+                    <h3>Gendang Gendis</h3>
+                    <p>
+                        Mengobati ruam, luka herpes, gigitan ular, diabetes, dan asam urat.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="gambar/sk.jpg" alt="Sirih Karuk" />
+                    <h3>Sirih Karuk</h3>
+                    <p>
+                        Meredakan sakit perut dan gangguan pencernaan.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="gambar/sm.jpg" alt="Tumbuhan Sarang Semut" />
+                    <h3>Tumbuhan Sarang Semut</h3>
+                    <p>
+                        Meningkatkan imun dan mempercepat penyembuhan luka.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal untuk tampilan gambar besar -->
+    <div id="gambarModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="gambarBesar" />
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; <span id="year"></span> Racik Borneo. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
