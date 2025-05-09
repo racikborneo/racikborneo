@@ -1,12 +1,12 @@
-- 👋 Hi, I’m @racikborneo
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 👋 Halo, saya @racikborneo  
+- 👀 Saya tertarik pada pengobatan herbal tradisional dan ramuan alami dari Kalimantan  
+- 🌱 Saat ini saya sedang belajar pemasaran digital untuk produk herbal  
+- 💞️ Saya terbuka untuk kolaborasi dalam riset herbal, kesehatan masyarakat, dan pertanian lokal  
+- 📫 Hubungi saya: racikborneo@gmail.com  
+- 😄 Kata ganti: kami  
+- ⚡ Fakta menarik: Resep herbal kami diwariskan dari kearifan lokal suku Dayak  
 
 <!---
-racikborneo/racikborneo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+racikborneo/racikborneo adalah repositori ✨ spesial ✨ karena `README.md` ini akan tampil di profil GitHub Anda.
+Anda bisa klik Preview untuk melihat tampilan perubahan.
 --->
