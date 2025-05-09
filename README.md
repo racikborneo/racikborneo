@@ -1,9 +1,9 @@
 - 👋 Halo, saya @racikborneo  
-- 👀 Saya tertarik pada pengobatan herbal tradisional dan ramuan alami dari Kalimantan  
-- 🌱 Saat ini saya sedang belajar pemasaran digital untuk produk herbal  
+- 👀 obat herbal tradisional dan ramuan alami dari Kalimantan  
+- 🌱 pemasaran digital untuk produk herbal  
 - 💞️ Saya terbuka untuk kolaborasi dalam riset herbal, kesehatan masyarakat, dan pertanian lokal  
 - 📫 Hubungi saya: racikborneo@gmail.com  
-- 😄 Kata ganti: kami  
+- 😄 Kami 
 - ⚡ Fakta menarik: Resep herbal kami diwariskan dari kearifan lokal suku Dayak  
 
 <!---
