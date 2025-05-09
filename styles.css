@@ -139,7 +139,26 @@ footer {
   color: blue;
 }
 
-/* Responsive text alignment */
+.wa-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.wa-button:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
+}
+
+/* Responsive text alignment dan tombol */
 @media (max-width: 600px) {
   .cari input {
     width: 90%;
@@ -151,5 +170,10 @@ footer {
 
   .card p {
     font-size: 0.85rem;
+  }
+
+  .wa-button {
+    width: 90%;
+    font-size: 1rem;
   }
 }
